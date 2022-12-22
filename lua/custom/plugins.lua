@@ -12,6 +12,9 @@ return function(use)
 
   -- Undo tree
   use 'mbbill/undotree'
+  
+   -- A simple file explorer
+  use 'preservim/nerdtree'
 
   -- DAP
   use 'mfussenegger/nvim-dap'
