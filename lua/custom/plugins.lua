@@ -16,6 +16,9 @@ return function(use)
    -- A simple file explorer
   use 'preservim/nerdtree'
 
+  -- comment/uncomment
+  use 'terrortylor/nvim-comment'
+
   -- DAP
   use 'mfussenegger/nvim-dap'
   use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap"} }
