@@ -12,7 +12,7 @@ return function(use)
 
   -- Undo tree
   use 'mbbill/undotree'
-  
+
    -- A simple file explorer
   use 'preservim/nerdtree'
 
@@ -27,4 +27,6 @@ return function(use)
 
   -- go dap
   use 'leoluz/nvim-dap-go'
+
+  use {'akinsho/flutter-tools.nvim', requires = 'nvim-lua/plenary.nvim'}
 end
