@@ -56,6 +56,9 @@ require 'lspconfig'.dartls.setup {
   capabilities = capabilities,
   on_attach = on_attach,
   settings = {
-
+    dart = {
+      lineLength = 120,
+      enableSnippets = true,
+    }
   }
 }
