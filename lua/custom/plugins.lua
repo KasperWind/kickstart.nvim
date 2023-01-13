@@ -1,6 +1,7 @@
 return function(use)
   -- Colorscheme
   use 'ellisonleao/gruvbox.nvim'
+  use 'paretje/nvim-man'
 
   -- Rust
   use 'simrat39/rust-tools.nvim'
