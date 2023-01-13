@@ -1,7 +1,6 @@
 return function(use)
   -- Colorscheme
   use 'ellisonleao/gruvbox.nvim'
-  use 'paretje/nvim-man'
 
   -- Rust
   use 'simrat39/rust-tools.nvim'
@@ -15,7 +14,7 @@ return function(use)
   use 'mbbill/undotree'
 
    -- A simple file explorer
-  use 'preservim/nerdtree'
+--  use 'preservim/nerdtree'
 
   -- comment/uncomment
   use 'terrortylor/nvim-comment'
