@@ -5,6 +5,8 @@ return function(use)
   -- Rust
   use 'simrat39/rust-tools.nvim'
 
+  use 'theprimeagen/harpoon'
+
   -- Telescope dependencies
   use {'BurntSushi/ripgrep'}
   use {'sharkdp/fd'}
@@ -12,9 +14,6 @@ return function(use)
 
   -- Undo tree
   use 'mbbill/undotree'
-
-   -- A simple file explorer
---  use 'preservim/nerdtree'
 
   -- comment/uncomment
   use 'terrortylor/nvim-comment'
