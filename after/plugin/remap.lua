@@ -1,6 +1,9 @@
 -- source
 vim.keymap.set('n', '<leader><leader>x', ':source %<CR>')
 
+-- Quit
+vim.keymap.set('n', '<C-q>', ':q<CR>')
+vim.keymap.set('n', '<C-ESC>', ':q<CR>')
 
 -- Keeps screen for jumping aorund
 vim.keymap.set("n", "J", "mzJ`z")
