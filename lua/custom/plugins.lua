@@ -1,6 +1,7 @@
 return function(use)
   -- Colorscheme
-  use 'ellisonleao/gruvbox.nvim'
+  --use 'ellisonleao/gruvbox.nvim'
+  use 'sainnhe/gruvbox-material'
 
   -- Rust
   use 'simrat39/rust-tools.nvim'
