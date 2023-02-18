@@ -5,6 +5,7 @@ return function(use)
 
   -- Rust
   use 'simrat39/rust-tools.nvim'
+  use 'nvim-tree/nvim-tree.lua'
 
   use 'theprimeagen/harpoon'
 
