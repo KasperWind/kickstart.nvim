@@ -11,14 +11,22 @@ require("nvim-tree").setup()
 local function open_nvim_tree(data)
   local directory = vim.fn.isdirectory(data.file) == 1
 
-  if not directory then
+  if data.file == "" then
     return
   end
 
-  vim.cmd.cd(data.file)
+  if directory then
+    vim.cmd.cd(data.file)
+  end
 
   require("nvim-tree.api").tree.open()
 
+  if not directory then
+    local windows = vim.api.nvim_list_wins()
+    if #windows > 1 then
+      vim.api.nvim_set_current_win(windows[2])
+    end
+  end
 end
 
 
